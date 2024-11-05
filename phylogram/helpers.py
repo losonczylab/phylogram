@@ -771,7 +771,7 @@ def _to_newick(morph_tree, root_name = 'ROOT'):
     rest = "(" + ','.join(level) + ")" if level else ""
     return "{}{}:{}".format(rest, _rename_braces(root_name), dist)
 
-def _get_circular_tree_data(hoc_fpath, annotation_df = None, dist = 1, start_angle = 0, end_angle = 360,
+def get_circular_tree_data(hoc_fpath, annotation_df = None, dist = 1, start_angle = 0, end_angle = 360,
     start_leaf = 'last', plotter = 'pyplot', angular_nseg = 20, default_marker_size = 5, default_marker_color = (1,0,0,0.5),
     open_hoc_file = True, trunk_linewidth = 1, nontrunk_linewidth = 0.35):
     """

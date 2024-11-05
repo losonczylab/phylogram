@@ -8,13 +8,13 @@ setup(
     author_email='zhenruiliao@gmail.com',
     description='Minimal package for plotting dendritic morphologies',
     packages=find_packages(),    
-    install_requires=['numpy >= 1.11.1', 
+    install_requires=[
+                      'numpy >= 1.11.1', 
                       'matplotlib >= 1.5.1', 
                       'scipy', 
-                      'collections', 
                       'pandas', 
                       'plotly', 
                       'neuron', 
-                      'ipywdigets', 
+                      'ipywidgets', 
                       'Bio'],
 )

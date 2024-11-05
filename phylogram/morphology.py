@@ -264,7 +264,7 @@ def plot_phylogram(hoc_fpath, annotation_df = None, ax = None, figsize = (10,10)
     roi_target_label_xy_offset : tuple
         X & Y axis offset in data coordinates between the marked location and ROI scan target label lower left corner.
     """
-    lines, line_widths, arcs, arc_widths, adjusted_annotation_df = _get_circular_tree_data(hoc_fpath = hoc_fpath, annotation_df = annotation_df,
+    lines, line_widths, arcs, arc_widths, adjusted_annotation_df = get_circular_tree_data(hoc_fpath = hoc_fpath, annotation_df = annotation_df,
         plotter = plotter, default_marker_size = default_marker_size, default_marker_color = default_marker_color,
         open_hoc_file = open_hoc_file, trunk_linewidth = trunk_lw, nontrunk_linewidth = lw)
 
