@@ -24,6 +24,9 @@ pip -e PATH/TO/phylogram
 ## Usage 
 See `scripts`
 
+## Input
+For now only supports [NEURON](https://www.neuron.yale.edu/neuron/) `.hoc` files. Eventually may add `.swc` file support as well
+
 ## Output
 ### Faithful reproduction of morphology
 ![anatomy](./example_data/example_morphology.png)
