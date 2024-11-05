@@ -2,6 +2,7 @@
 
 A minimal package for plotting dendritic morphologies. Supports plotting anatomically and schematically (phylogram).
 
+From the manuscript [Functional architecture of intracellular oscillations in hippocampal dendrites](https://www.nature.com/articles/s41467-024-50546-z) by Zhenrui Liao*, Kevin C. Gonzalez*, Deborah M. Li, Catalina M. Yang, Donald Holder, Natalie E. McClain, Guofeng Zhang, Stephen W. Evans, Mariya Chavarha, Jane Simko, Christopher D. Makinson, Michael Z. Lin, Attila Losonczy & Adrian Negrean. 
 
 ## Installation
 ```
@@ -20,3 +21,12 @@ or
 pip -e PATH/TO/phylogram
 ```
 
+## Usage 
+See `scripts`
+
+## Output
+### Faithful reproduction of morphology
+![anatomy](./example_data/example_morphology.png)
+
+### Schematic morphology
+![phylogram](./example_data/example_phylogram.png)
