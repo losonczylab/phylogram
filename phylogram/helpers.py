@@ -1,7 +1,8 @@
 # Morphology analysis and plotting
-import sys, os, re, numpy as np, pandas as pd
-
 import matplotlib
+matplotlib.use("Agg")
+
+import sys, os, re, numpy as np, pandas as pd
 from matplotlib.pyplot import cm
 from mpl_toolkits.mplot3d import proj3d
 from matplotlib.patches import FancyArrowPatch
